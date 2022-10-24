@@ -4,7 +4,7 @@
  * File Created: 2022-10-23 23:32:35
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-24 12:34:19
+ * Last Modified: 2022-10-24 14:45:48
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -18,6 +18,8 @@ import mainimg5 from "../../image/mainImage-5.png";
 import mainimg6 from "../../image/mainImage-6.png";
 import mainimg7 from "../../image/mainImage-7.png";
 import mainimg8 from "../../image/mainImage-8.png";
+import mainimg9 from "../../image/mainImage-9.png";
+import mainimg10 from "../../image/mainImage-10.png";
 
 const Main = () => {
   return (
@@ -32,7 +34,8 @@ const Main = () => {
             <img className="header-ico-2" src={headerImg2}></img>
           </a>
         </div>
-        <label>
+      </div>
+      <label>
           <input type="checkbox" />
           <span class="menu">
             {" "}
@@ -65,7 +68,6 @@ const Main = () => {
             </li>
           </ul>
         </label>
-      </div>
       <div className="main-container">
         <img className="main-1" src={main1}></img>
         <div className="container-main-1" id="nav9">
@@ -388,6 +390,95 @@ const Main = () => {
               </p>
             </li>
           </ul>
+        </div>
+
+        <div className="main-5-card hei3">
+          <h1 className="card-title-5">Мультимодальная схема</h1>
+          <img className="img-main-9" src={mainimg9}></img>
+          <div className="main-5-text">
+            <h2 className="subtitle-text-5">Мультимедийная перевозка</h2>
+            <p className="paragraf-main-5">
+              Мультимодальная перевозка — это доставка грузов по одному
+              контракту, но осуществляемая несколькими разновидностями
+              транспорта. Логистический оператор в этом случае несёт перед
+              заказчиком ответственность за эту перевозку полностью, даже если
+              эта транспортировка производится разными видами транспорта и
+              различными субперевозчиками. Наиболее распространенный вид
+              мультимодальных перевозок – это комбинирование железнодорожного и
+              автомобильного транспорта. От фабрики-производителя груз в
+              контейнере с помощью грузового автомобиля перевозится на
+              железнодорожный порт отправки, оттуда поездом следует основную
+              часть пути, затем перегружается снова на автомобиль и доставляется
+              на склад заказчика.
+            </p>
+          </div>
+        </div>
+
+        <div className="continer-main-4">
+          <h1 className="title-main-3">
+            Мультимодальная схема идеально подходят в следующих случаях
+          </h1>
+          <br />
+          <ul className="ul-main-3 width-main-3">
+            <li className="main-3-list">
+              <p className="list-text-main4">
+                когда нет возможности доставить груз одним видом транспорта
+                напрямую от отправителя получателю; (получатель находится на
+                удалении от морских портов, нет железной дороги или автодороги,
+                подходящей для движения автопоездов, и т.п.);
+              </p>
+            </li>
+            <li className="main-3-list">
+              <p className="list-text-main4">
+                прямая доставка не рентабельна по стоимости или срокам;
+              </p>
+            </li>
+
+            <p className="centr-paragraf">
+              {" "}
+              Преимущества такой перевозки очевидны:
+            </p>
+            <li className="main-3-list">
+              <p className="list-text-main4">
+                доставку груза можно осуществить буквально из любой точки в
+                любую точку;
+              </p>
+            </li>
+            <li className="main-3-list">
+              <p className="list-text-main4">
+                позволяет значительно удешевить стоимость доставки, или
+                сократить ее сроки;
+              </p>
+            </li>
+            <li className="main-3-list">
+              <p className="list-text-main4">
+                невероятная гибкость логистических схем;
+              </p>
+            </li>
+            <li className="main-3-list">
+              <p className="list-text-main4">
+                мультимодальная перевозка особенно привлекательна для сборных
+                грузов и небольших партий товаров;
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div className="main-51-card">
+          <div className="main-5-text">
+            <h2 className="subtitle-text-51" id="nav12" >АКЦИИ НА ОКТЯБРЬ 2022</h2>
+            <p className="paragraf-main-51">
+              Дорогие клиенты! В связи с известной нестабильностью на рынке
+              перевозок из Китая ставки китайских перевозчиков меняются
+              еженедельно, а иногда и ежедневно. Убедительная просьба,
+              обязательно консультироваться с нашим менеджером по актуальности
+              текущих цен и наличию мест! <br /> Мы возим из ЛЮБОГО города
+              Китая! Если Вы не нашли интересующее Вас направление доставки в
+              таблицах, обратитесь к нашим специалистам, мы подберём самые
+              лучшие варианты по рынку.
+            </p>
+            <img className="img-main-10" src={mainimg10}></img>
+          </div>
         </div>
       </div>
     </div>
