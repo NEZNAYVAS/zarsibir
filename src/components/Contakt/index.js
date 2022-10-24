@@ -4,7 +4,7 @@
  * File Created: 2022-10-23 14:03:58
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-24 15:50:35
+ * Last Modified: 2022-10-24 16:52:32
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -19,18 +19,19 @@ function Contakt() {
       <div className="container-1-contakt">
         <div className="contakt-address-container">
           <h1 className="contakt-title">ГЛАВНЫЙ ОФИС В МОСКВЕ</h1>
-          <a className="contakt-number" href="tel:+79631686817">
-            8-963-168-68-17
+          <a className="contakt-number" target="_blank" href="tel:+79631686817">
+            +7-(963)-168-68-17
           </a>
           <div className="container-contakt-2">
             <a
               className="contakt-address"
               href="https://yandex.ru/maps/-/CCUZRKcApA"
+              target="_blank"
             >
               Москвовская область, Береговая ул., 10 корпус 1, Долгопрудный
             </a>
             <p className="time">Пн-Пт 9:00 - 17:30 (по Мск. времени)</p>
-            <a className="mail-address" href="">
+            <a className="mail-address" target="_blank" href="mailto:zaryasib777@gmail.com">
               zaryasib777@gmail.com
             </a>
           </div>
@@ -49,19 +50,20 @@ function Contakt() {
       <div className="container-1-contakt-2">
         <div className="contakt-address-container">
           <h1 className="contakt-title">ГЛАВНЫЙ ОФИС В китае</h1>
-          <a className="contakt-number" href="tel:+79631686817">
-            8-963-168-68-17
+          <a className="contakt-number" target="_blank" href="tel:+79631686817">
+          +7-(963)-168-68-17
           </a>
           <div className="container-contakt-2">
             <a
               className="contakt-address"
-              href="https://yandex.ru/maps/-/CCUZRKcApA"
+              href="https://goo.gl/maps/mq7mQG6ycx4Yawo99"
+              target="_blank"
             >
               Room 2201, 21/F, Sinolife Tower, No.710 Zhangyang Rd Pudong /
               Shanghai China
             </a>
             <p className="time">Пн-Пт 9:00 - 17:30 (по Мск. времени)</p>
-            <a className="mail-address" href="">
+            <a className="mail-address" target="_blank" href="mailto:zaryasib777@gmail.com">
               zaryasib777@gmail.com
             </a>
           </div>
@@ -80,19 +82,20 @@ function Contakt() {
       <div className="container-1-contakt-3">
         <div className="contakt-address-container">
           <h1 className="contakt-title">ГЛАВНЫЙ ОФИС В турции</h1>
-          <a className="contakt-number" href="tel:+79631686817">
-            8-963-168-68-17
+          <a className="contakt-number" target="_blank" href="tel:+79631686817">
+          +7-(963)-168-68-17
           </a>
           <div className="container-contakt-2">
             <a
               className="contakt-address"
-              href="https://yandex.ru/maps/-/CCUZRKcApA"
+              href="https://goo.gl/maps/uuUQu6EVwkNN181HA"
+              target="_blank"
             >
               Kanyon Office Building Floor 7 Buyukdere Avenue No 186 Istanbul
               Sanyer 34394 Türkiye
             </a>
             <p className="time">Пн-Пт 9:00 - 17:30 (по Мск. времени)</p>
-            <a className="mail-address" href="">
+            <a className="mail-address" target="_blank" href="mailto:zaryasib777@gmail.com">
               zaryasib777@gmail.com
             </a>
           </div>

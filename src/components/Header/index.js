@@ -4,7 +4,7 @@
  * File Created: 2022-10-20 20:10:17
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-24 10:20:48
+ * Last Modified: 2022-10-24 16:52:37
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -45,10 +45,10 @@ const HeaderTop = () => {
           </a>
         </div>
         <div className="soc">
-          <a href="" className="link-soc">
+          <a href="https://t.me/Zaryasib777" target="_blank" className="link-soc">
             <img src={tellegram} className="img-soc"></img>
           </a>
-          <a href="" className="link-soc">
+          <a href="https://wa.me/79631686817" target="_blank" className="link-soc">
             <img src={tel} className="img-soc"></img>
           </a>
         </div>

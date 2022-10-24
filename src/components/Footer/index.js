@@ -4,7 +4,7 @@
  * File Created: 2022-10-23 15:08:52
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-24 15:46:49
+ * Last Modified: 2022-10-24 16:53:05
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -34,20 +34,20 @@ const Footer =()=> {
       </ul>
 
       <div className="footer-contakt-5">
-        <a className="contakt-tel-5" href="tel:+79631686817">
+        <a className="contakt-tel-5" target="_blank" href="tel:+79631686817">
         <img className="tel-5-footer" src={footer1}></img>
-        <p className="paragraf-footer-5">+7 (968) 163 68 17</p>
+        <p className="paragraf-footer-5">+7-(963)-168-68-17</p>
         </a>
-        <a className="contakt-mail-5" href="">
+        <a className="contakt-mail-5" target="_blank" href="mailto:zaryasib777@gmail.com">
         <img className="mail-5-footer" src={footer2}></img>
         <p className="paragraf-footer-5">zaryasib777@gmail.com</p>
         </a>
       </div>
       <div className="footer-contakt-6">
-        <a className="contakt-watsapp-5" href="">
+        <a className="contakt-watsapp-5" target="_blank" href="https://wa.me/79631686817">
           <img className="watsapp-footer" src={footer3}></img>
         </a>
-        <a className="contakt-tellegram-5" href="">
+        <a className="contakt-tellegram-5" target="_blank" href="https://t.me/Zaryasib777">
         <img className="tellegram-footer" src={footer4}></img>
         </a>
       </div>
