@@ -670,7 +670,7 @@
     line-height: 22px;
     letter-spacing: 0em;
   }
- 
+
   .title-main-3 {
     font-family: Bebas Neue;
     font-size: 24px;
@@ -685,6 +685,42 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .card-title-5 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117.5%;
+    text-align: center;
+    color: #0ba3f9;
+  }
+  .subtitle-text-5 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .paragraf-main-5 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .sub-title-3-footer {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
     letter-spacing: 0em;
     text-align: center;
   }
