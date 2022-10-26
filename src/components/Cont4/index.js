@@ -4,8 +4,8 @@
  * File Created: 2022-10-23 00:43:58
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-25 11:11:46
- * Modified By: Mkhamat
+ * Last Modified: 2022-10-26 18:06:20
+ * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
  */
@@ -16,7 +16,7 @@ import fotter3 from "../../image/fotter3.png";
 
 const Cont4 = () => {
   return (
-    <div className="container-cont4-1">
+    <div className="container-cont4-1" >
       <h1 className="title-cont4" id="nav7">
         ЛУЧШиЕ ПРЕДЛОЖЕНИЯ <br /> ПО КОНТЕЙНЕРНЫМ ПЕРЕВОЗКАМ ИЗ европы ОТ
         заря-сибирь
