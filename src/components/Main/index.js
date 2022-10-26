@@ -4,7 +4,7 @@
  * File Created: 2022-10-23 23:32:35
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-26 18:11:26
+ * Last Modified: 2022-10-26 18:27:04
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -19,11 +19,11 @@ import mainimg6 from "../../image/mainImage-6.png";
 import mainimg7 from "../../image/mainImage-7.png";
 import mainimg8 from "../../image/mainImage-8.png";
 import mainimg9 from "../../image/mainImage-9.png";
-import logoFotter from "../../image/logoFotter.png"
-import footer1 from "../../image/footer-1.png"
-import footer2 from "../../image/footer-2.png"
-import footer3 from "../../image/footer-3.png"
-import footer4 from "../../image/footer-4.png"
+import logoFotter from "../../image/logoFotter.png";
+import footer1 from "../../image/footer-1.png";
+import footer2 from "../../image/footer-2.png";
+import footer3 from "../../image/footer-3.png";
+import footer4 from "../../image/footer-4.png";
 import mainimg10 from "../../image/mainImage-10.png";
 import transport1Img from "../../image/transport1Img.png";
 import img11 from "../../image/img11.png";
@@ -509,7 +509,9 @@ const Main = () => {
           <Card12 />
 
           <div className="container-transpor-1">
-            <h1 className="card-title-52" id="nav13">экспедиция</h1>
+            <h1 className="card-title-52" id="nav13">
+              экспедиция
+            </h1>
             <img className="transport1Img" src={transport1Img}></img>
             <p className="title-transpot-52">
               Что такое транспортная экспедиция?
@@ -524,8 +526,12 @@ const Main = () => {
             </p>
           </div>
           <Cont2 />
-          <div id="nav14"><Cont3 /></div>
-          <div id="nav15"><Cont4 /></div>
+          <div id="nav14">
+            <Cont3 />
+          </div>
+          <div id="nav15">
+            <Cont4 />
+          </div>
 
           <div>
             <div className="contakt-container">
@@ -654,47 +660,72 @@ const Main = () => {
             </div>
           </div>
 
+          <div>
+            <div className="footer-container-bottom">
+              <img className="footer-img" src={logoFotter}></img>
+              <ul className="nav-ul-footer">
+                <a className="footer-link" href="#nav9">
+                  Главная
+                </a>
+                <a className="footer-link" href="#nav10">
+                  О компании
+                </a>
+                <a className="footer-link" href="#nav11">
+                  Логистика
+                </a>
+                <a className="footer-link" href="#nav12">
+                  Акции
+                </a>
+                <a className="footer-link" href="#nav13">
+                  Экспедиция
+                </a>
+                <a className="footer-link" href="#nav14">
+                  Китай
+                </a>
+                <a className="footer-link" href="#nav15">
+                  Европа
+                </a>
+                <a className="footer-link" href="#nav16">
+                  Представительства и Контакты{" "}
+                </a>
+              </ul>
 
-
-
-
-
-                            <div>
-                            <div className="footer-container-bottom">
-      <img className="footer-img" src={logoFotter} ></img>
-      <ul className="nav-ul-footer">
-        <a className="footer-link" href="#nav9">Главная</a>
-        <a className="footer-link" href="#nav10">О компании</a>
-        <a className="footer-link" href="#nav11">Логистика</a>
-        <a className="footer-link" href="#nav12">Акции</a>
-        <a className="footer-link" href="#nav13">Экспедиция</a>
-        <a className="footer-link" href="#nav14">Китай</a>
-        <a className="footer-link" href="#nav15">Европа</a>
-        <a className="footer-link" href="#nav16">Представительства и Контакты </a>
-      </ul>
-
-      <div className="footer-contakt-5">
-        <a className="contakt-tel-5" target="_blank" href="tel:+79631686817">
-        <img className="tel-5-footer" src={footer1}></img>
-        <p className="paragraf-footer-5">+7-(963)-168-68-17</p>
-        </a>
-        <a className="contakt-mail-5" target="_blank" href="mailto:zaryasib777@gmail.com">
-        <img className="mail-5-footer" src={footer2}></img>
-        <p className="paragraf-footer-5">zaryasib777@gmail.com</p>
-        </a>
-      </div>
-      <div className="footer-contakt-6">
-        <a className="contakt-watsapp-5" target="_blank" href="https://wa.me/79631686817">
-          <img className="watsapp-footer" src={footer3}></img>
-        </a>
-        <a className="contakt-tellegram-5" target="_blank" href="https://t.me/Zaryasib777">
-        <img className="tellegram-footer" src={footer4}></img>
-        </a>
-      </div>
-    </div>
-                            </div>
-
-
+              <div className="footer-contakt-5">
+                <a
+                  className="contakt-tel-5"
+                  target="_blank"
+                  href="tel:+79631686817"
+                >
+                  <img className="tel-5-footer" src={footer1}></img>
+                  <p className="paragraf-footer-5">+7-(963)-168-68-17</p>
+                </a>
+                <a
+                  className="contakt-mail-5"
+                  target="_blank"
+                  href="mailto:zaryasib777@gmail.com"
+                >
+                  <img className="mail-5-footer" src={footer2}></img>
+                  <p className="paragraf-footer-5">zaryasib777@gmail.com</p>
+                </a>
+              </div>
+              <div className="footer-contakt-6">
+                <a
+                  className="contakt-watsapp-5"
+                  target="_blank"
+                  href="https://wa.me/79631686817"
+                >
+                  <img className="watsapp-footer" src={footer3}></img>
+                </a>
+                <a
+                  className="contakt-tellegram-5"
+                  target="_blank"
+                  href="https://t.me/Zaryasib777"
+                >
+                  <img className="tellegram-footer" src={footer4}></img>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     )
