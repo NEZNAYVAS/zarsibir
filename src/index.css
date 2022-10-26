@@ -974,7 +974,38 @@ body {
 
   .img-main-10 {
     position: relative;
-    z-index: 909099;
     top: -100px;
   }
+  
+
+  img {
+    display: block;
+    width: 320px;
+    width: 100%;
+  }
+
+
+  .container-11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.container-mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background: #ffffff;
+    box-shadow: inset 7px 4px 9px rgba(0, 0, 0, 0.25),
+      inset -7px -4px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
 }

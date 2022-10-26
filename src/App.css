@@ -655,9 +655,11 @@
     letter-spacing: 0.3px;
     text-align: left;
   }
+
   .main-3-list + .main-3-list {
     margin-top: 2px;
   }
+
   .main-3-list {
     list-style-type: disc;
     color: #343434;
@@ -698,6 +700,7 @@
     text-align: center;
     color: #0ba3f9;
   }
+
   .subtitle-text-5 {
     font-family: Open Sans;
     font-size: 16px;
@@ -706,6 +709,7 @@
     letter-spacing: 0em;
     text-align: center;
   }
+
   .paragraf-main-5 {
     font-family: Open Sans;
     font-size: 14px;
@@ -743,15 +747,45 @@
     text-align: center;
   }
 
+  .paragraf-main-51 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+  }
 
-.paragraf-main-51 {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-top: 20px;
-  width: 100%;
-}
+  .title-11 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 117.5%;
+    text-align: center;
+    color: #ff9408;
+  }
+
+  .paragraf-11 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 117.5%;
+    text-align: center;
+    color: #343434;
+  }
+  .num-footer {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 117.5%;
+    text-align: center;
+    letter-spacing: 0.265em;
+    text-transform: uppercase;
+    color: #343434;
+  }
 }

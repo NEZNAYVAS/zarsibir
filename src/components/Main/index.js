@@ -4,7 +4,7 @@
  * File Created: 2022-10-23 23:32:35
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-24 14:45:48
+ * Last Modified: 2022-10-26 12:10:01
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -20,6 +20,10 @@ import mainimg7 from "../../image/mainImage-7.png";
 import mainimg8 from "../../image/mainImage-8.png";
 import mainimg9 from "../../image/mainImage-9.png";
 import mainimg10 from "../../image/mainImage-10.png";
+import img11 from "../../image/img11.png"
+import img112 from "../../image/img11-2.png"
+import img113 from "../../image/img11-3.png"
+
 
 const Main = () => {
   return (
@@ -480,6 +484,53 @@ const Main = () => {
             <img className="img-main-10" src={mainimg10}></img>
           </div>
         </div>
+
+          
+
+
+
+        <div className="container-11">
+      <div className="container-mob">
+            <img className="img-11" src={img11}></img>
+            <h1 className="title-11">deyang - Мск</h1>
+            <p className="paragraf-11">Морские перевозки</p>
+            <div className="cont-11">
+              <p className="number-11">$8400</p>
+            </div>
+            <p className="num-footer">Еженедельно</p>       
+      </div>
+      <div className="container-mob">
+            <img className="img-11-2" src={img112}></img>
+            <h1 className="title-11">Luzhou - Мск</h1>
+            <p className="paragraf-11">Прямые ЖД</p>
+            <div className="cont-11">
+              <p className="number-11">$8400</p>
+            </div>
+            <p className="num-footer">Еженедельно</p>       
+      </div>
+      <div className="container-mob">
+            <img className="img-11-3" src={img113}></img>
+            <h1 className="title-11">chengdu - Мск</h1>
+            <p className="paragraf-11">Авиаперевозки</p>
+            <div className="cont-11">
+              <p className="number-11">$8400</p>
+            </div>
+            <p className="num-footer">Еженедельно</p>       
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
       </div>
     </div>
   );
