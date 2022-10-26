@@ -4,7 +4,7 @@
  * File Created: 2022-10-22 20:32:26
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-26 13:34:00
+ * Last Modified: 2022-10-26 15:32:46
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -17,7 +17,7 @@ import img4 from "../../image/img12-4.png";
 
 const Card = () => {
   return (
-    <div className="card-12">
+    <div className="card-12 neo">
       <h1 className="card-title">услуги</h1>
       <div className="container-card-12">
         <div className="card-12 card-12-1">
