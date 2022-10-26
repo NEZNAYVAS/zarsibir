@@ -5,11 +5,11 @@
  * Author: Ahmed
  * -----
 <<<<<<< HEAD
- * Last Modified: 2022-10-26 12:10:14
+ * Last Modified: 2022-10-26 12:47:20
  * Modified By: Ahmed
 =======
- * Last Modified: 2022-10-25 16:35:50
- * Modified By: Mkhamat
+ * Last Modified: 2022-10-26 12:47:20
+ * Modified By: Ahmed
 >>>>>>> 015cc1277bc2f8c698578c4e47120e7c0c55160d
  * -----
  * Copyright 2022 - present
@@ -18,8 +18,8 @@
 import img11 from "../../image/img11.png"
 import img112 from "../../image/img11-2.png"
 import img113 from "../../image/img11-3.png"
-import { useEffect, useState } from "react"
-import directus from "../../directus.js"
+import { useEffect, useState } from "react";
+import directus from "../../directus.js";
 
 
 

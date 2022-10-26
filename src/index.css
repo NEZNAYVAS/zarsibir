@@ -736,7 +736,6 @@ body {
     cursor: pointer;
   }
 
-
   label .hamburger {
     position: absolute;
     width: 30px;
@@ -774,7 +773,7 @@ body {
   }
 
   label input:checked + .menu {
-    box-shadow: 0 0 0 100vw #D9DEE2, 0 0 0 100vh #D9DEE2;
+    box-shadow: 0 0 0 100vw #d9dee2, 0 0 0 100vh #d9dee2;
     border-radius: 0;
   }
 
@@ -827,7 +826,6 @@ body {
     color: black;
   }
 
-
   .h1 {
     position: absolute;
     top: 50%;
@@ -844,6 +842,7 @@ body {
   }
 
   .header-2-container-1 {
+    display: flex;
     margin-left: 25%;
   }
 
@@ -949,41 +948,34 @@ body {
   }
 
   .hei3 {
-      height: 779px;
-      margin-top: 0px;
-      margin-bottom: 50px;
+    height: 779px;
+    margin-top: 0px;
+    margin-bottom: 50px;
   }
   .paragraf-main-5 {
     padding: 0 20px;
   }
 
-
-
   .centr-paragraf {
     margin: 30px 0px;
   }
 
-
-
-  .main-51-card  {
-      margin-top: 80px;
-      margin-bottom: 50px;
-      height: 681px;
-      width: 100%;
+  .main-51-card {
+    margin-top: 80px;
+    height: 681px;
+    width: 100%;
   }
 
   .img-main-10 {
     position: relative;
     top: -100px;
   }
-  
 
   img {
     display: block;
     width: 320px;
     width: 100%;
   }
-
 
   .container-11 {
     display: flex;
@@ -993,19 +985,60 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-}
+  }
 
-.container-mob {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  background: #ffffff;
-    box-shadow: inset 7px 4px 9px rgba(0, 0, 0, 0.25),
-      inset -7px -4px 9px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
+  .card-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
     padding-bottom: 40px;
     margin-bottom: 20px;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: inset 7px 4px 9px rgb(0 0 0 / 25%),
+      inset -7px -4px 9px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+  }
+
+  .img12-1 {
+    height: 90.00005340576172px;
+    width: 132.92213439941406px;
+  }
+
+  .img12-2 {
+    height: 90.0001220703125px;
+    width: 86.57404327392578px;
+  }
+
+  .img12-3 {
+    height: 89.99983215332031px;
+    width: 80.64025115966797px;
+  }
+
+  .img12-4 {
+    height: 90.00007629394531px;
+    width: 88.82074737548828px;
+  }
+.card-12 {
+  margin-top: 100px;
 }
+  .container-card-12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0px;
+    width: 100%;
+  }
+
+  .card-12-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 40px;
+  }
 }

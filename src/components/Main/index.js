@@ -4,7 +4,7 @@
  * File Created: 2022-10-23 23:32:35
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-26 12:10:01
+ * Last Modified: 2022-10-26 13:17:12
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -20,13 +20,29 @@ import mainimg7 from "../../image/mainImage-7.png";
 import mainimg8 from "../../image/mainImage-8.png";
 import mainimg9 from "../../image/mainImage-9.png";
 import mainimg10 from "../../image/mainImage-10.png";
-import img11 from "../../image/img11.png"
-import img112 from "../../image/img11-2.png"
-import img113 from "../../image/img11-3.png"
+import img11 from "../../image/img11.png";
+import img112 from "../../image/img11-2.png";
+import img113 from "../../image/img11-3.png";
+import Card12 from "../Card"
 
+
+import { useEffect, useState } from "react";
+import directus from "../../directus.js";
+
+import Content11 from "../Content11";
 
 const Main = () => {
+  const [sale, setSale] = useState();
+  useEffect(() => {
+    (async () => {
+      let result = await directus.items('SALES').readByQuery();
+      setSale(result.data)
+    })()
+  }, [])
+
+
   return (
+    sale && (
     <div className="pad">
       <div className="header-2-container">
         <img className="header_logo2" src={headerLogo}></img>
@@ -40,38 +56,38 @@ const Main = () => {
         </div>
       </div>
       <label>
-          <input type="checkbox" />
-          <span class="menu">
-            {" "}
-            <span class="hamburger"></span>{" "}
-          </span>
-          <ul>
-            <li className="color-li">
-              <a href="#nav9">Главная</a>
-            </li>
-            <li className="color-li">
-              <a href="#nav10">О компании</a>
-            </li>
-            <li className="color-li">
-              <a href="#nav11">Логистика</a>
-            </li>
-            <li className="color-li">
-              <a href="#nav12">Акции</a>
-            </li>
-            <li className="color-li">
-              <a href="#nav13">Экспедиция</a>
-            </li>
-            <li className="color-li">
-              <a href="#nav14">Китай</a>
-            </li>
-            <li className="color-li">
-              <a href="#nav15">Европа</a>
-            </li>
-            <li className="color-li">
-              <a href="#nav16">Представительства и Контакты</a>
-            </li>
-          </ul>
-        </label>
+        <input type="checkbox" />
+        <span class="menu">
+          {" "}
+          <span class="hamburger"></span>{" "}
+        </span>
+        <ul>
+          <li className="color-li">
+            <a href="#nav9">Главная</a>
+          </li>
+          <li className="color-li">
+            <a href="#nav10">О компании</a>
+          </li>
+          <li className="color-li">
+            <a href="#nav11">Логистика</a>
+          </li>
+          <li className="color-li">
+            <a href="#nav12">Акции</a>
+          </li>
+          <li className="color-li">
+            <a href="#nav13">Экспедиция</a>
+          </li>
+          <li className="color-li">
+            <a href="#nav14">Китай</a>
+          </li>
+          <li className="color-li">
+            <a href="#nav15">Европа</a>
+          </li>
+          <li className="color-li">
+            <a href="#nav16">Представительства и Контакты</a>
+          </li>
+        </ul>
+      </label>
       <div className="main-container">
         <img className="main-1" src={main1}></img>
         <div className="container-main-1" id="nav9">
@@ -467,72 +483,22 @@ const Main = () => {
             </li>
           </ul>
         </div>
-
         <div className="main-51-card">
           <div className="main-5-text">
-            <h2 className="subtitle-text-51" id="nav12" >АКЦИИ НА ОКТЯБРЬ 2022</h2>
+            <h2 className="subtitle-text-51" id="nav12">
+            {sale.title}
+            </h2>
             <p className="paragraf-main-51">
-              Дорогие клиенты! В связи с известной нестабильностью на рынке
-              перевозок из Китая ставки китайских перевозчиков меняются
-              еженедельно, а иногда и ежедневно. Убедительная просьба,
-              обязательно консультироваться с нашим менеджером по актуальности
-              текущих цен и наличию мест! <br /> Мы возим из ЛЮБОГО города
-              Китая! Если Вы не нашли интересующее Вас направление доставки в
-              таблицах, обратитесь к нашим специалистам, мы подберём самые
-              лучшие варианты по рынку.
+              {sale.description}
             </p>
             <img className="img-main-10" src={mainimg10}></img>
           </div>
         </div>
-
-          
-
-
-
-        <div className="container-11">
-      <div className="container-mob">
-            <img className="img-11" src={img11}></img>
-            <h1 className="title-11">deyang - Мск</h1>
-            <p className="paragraf-11">Морские перевозки</p>
-            <div className="cont-11">
-              <p className="number-11">$8400</p>
-            </div>
-            <p className="num-footer">Еженедельно</p>       
-      </div>
-      <div className="container-mob">
-            <img className="img-11-2" src={img112}></img>
-            <h1 className="title-11">Luzhou - Мск</h1>
-            <p className="paragraf-11">Прямые ЖД</p>
-            <div className="cont-11">
-              <p className="number-11">$8400</p>
-            </div>
-            <p className="num-footer">Еженедельно</p>       
-      </div>
-      <div className="container-mob">
-            <img className="img-11-3" src={img113}></img>
-            <h1 className="title-11">chengdu - Мск</h1>
-            <p className="paragraf-11">Авиаперевозки</p>
-            <div className="cont-11">
-              <p className="number-11">$8400</p>
-            </div>
-            <p className="num-footer">Еженедельно</p>       
+        <Content11 />
+        <Card12 />
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        
-      </div>
-    </div>
+    )
   );
 };
 

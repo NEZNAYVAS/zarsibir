@@ -4,7 +4,7 @@
  * File Created: 2022-10-22 20:32:26
  * Author: Ahmed
  * -----
- * Last Modified: 2022-10-22 20:48:31
+ * Last Modified: 2022-10-26 13:34:00
  * Modified By: Ahmed
  * -----
  * Copyright 2022 - present
@@ -20,7 +20,7 @@ const Card = () => {
     <div className="card-12">
       <h1 className="card-title">услуги</h1>
       <div className="container-card-12">
-        <div className="card-12">
+        <div className="card-12 card-12-1">
           <img className="img12-1" src={img1}></img>
           <h1 className="title-card-12">
             Местная
@@ -33,7 +33,7 @@ const Card = () => {
             многое др.
           </p>
         </div>
-        <div className="card-12">
+        <div className="card-12 card-12-1">
           <img className="img12-2" src={img2}></img>
           <h1 className="title-card-12">
             Таможенное
@@ -46,7 +46,7 @@ const Card = () => {
             многое др.
           </p>
         </div>
-        <div className="card-12">
+        <div className="card-12 card-12-1">
           <img className="img12-3" src={img3}></img>
           <h1 className="title-card-12">
             Сертификация
@@ -59,7 +59,7 @@ const Card = () => {
             Нотификация ФСБ и многое др.
           </p>
         </div>
-        <div className="card-12">
+        <div className="card-12 card-12-1">
           <img className="img12-4" src={img4}></img>
           <h1 className="title-card-12">
             Страхование
